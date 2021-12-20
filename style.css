@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+}
+
+/* general usage */
+.btn{
+    border: none;
+    background-color: rgb(238, 238, 26);
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    
+
+}
+.main-area{
+    background-color: aquamarine;
+    width: 84%;
+    margin: 30px auto;
+}
+.sub-text{
+    color: rgba(128, 128, 128, 0.658);
+    font-size: 20px;
+}
+
+/* navigation bar */
+nav{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    color: rgba(128, 128, 128, 0.658);
+}
+nav .name{
+    font-weight: 500;
+    color: wheat;
+    padding: 15px;
+}
+nav .links{
+    display: flex;
+    text-align: center;
+    margin: 0px 140px;
+    font-size: 20px;
+}
+nav .links .nav-link{
+    margin: 0px 10px;
+    padding: 15px;
+}
+nav .btn{
+    /* margin: 0px 20px; */
+    margin-left: 55px;
+}
+.showcase{
+    width: 50%;
+    margin: 20px 0px;
+    padding: 15px;
+}
+.showcase .main-text{
+    color: aliceblue;
+    font-size: 45px;
+}
+.companies{
+    display: flex;
+    margin: 0px;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+.companies img{
+    /* margin: 0px 28px; */
+    margin-right: 87px;
+}
+.demo{
+    display: flex;
+    padding: 15px;
+    color: white;
+}
+.demo .medium-text{
+    margin: 10px 0px;
+    font-size: 40px;
+}
+.demo .sub-text{
+    margin: 0px 20px 10px 0px;
+    color: aliceblue;
+}
+.community-card{
+    /* display: flex; */
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(68, 67, 67, 0.671);
+}
+.community-card .component{
+    width: 84%;
+    margin: 30px auto;
+    display: flex;
+    padding: 15px;
+    gap: 35px;
+
+}
+.community-card .component .medium-text{
+    font-size: 40px;
+    margin-bottom: 10px;   
+}
+.community-card .component .sub-text{
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.contact{
+    width: 84%;
+    margin: 30px auto;
+    margin-bottom: 60px;
+}
+.contact .medium-text{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+.contact .sub-text{
+    width: 500px;
+    margin-bottom: 15px;
+}
+.bottom-nav{
+    background-color: rgba(68, 67, 67, 0.671);
+}
+.bottom-nav .content{
+    width: 84%;
+    margin: 30px auto;
+    padding: 15px;
+    display: flex;
+    gap: 75%;
+}
+ion-icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
